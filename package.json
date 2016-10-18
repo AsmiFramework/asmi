@@ -1,0 +1,19 @@
+{
+  "name": "asmi",
+  "version": "0.5.4",
+  "description": "Asmi core",
+  "main": "asmi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Mahesh Kumar J",
+    "email": "mahesh@maheshj.com",
+    "url": "https://www.maheshj.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AsmiFramework/asmi.git"
+  },
+  "license": "MIT"
+}

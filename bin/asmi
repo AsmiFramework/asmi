@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+require('taketalk')({
+	init: function (input, options) {
+		// console.log('This is the input from the CLI:', input);
+		// console.log('These are the options passed:', options);
+
+		try {
+			this[input](options);
+		} catch (e) {
+			console.error("Error executing Asmi function - " + input);
+		};
+	},
+
+	info: function () {
+		var boxen = require('boxen');
+		console.log(boxen("Hello from Asmi.\nYou are awesome!", { padding: 1, borderStyle: 'double'}));
+	},
+
+	help: function () {
+		console.log('Print this when a user wants help.');
+	},
+
+	version: function () {
+		console.log('Print this when a user asks for the version.');
+	}
+});

@@ -1,6 +1,6 @@
 {
   "name": "asmi",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "description": "Asmi core",
   "main": "asmi.js",
   "scripts": {

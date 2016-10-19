@@ -1,11 +1,14 @@
 {
   "name": "asmi",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "Asmi core",
   "main": "asmi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node hello.js"
+    "postinstall": "asmi info"
+  },
+  "bin": {
+    "asmi": "./bin/asmi"
   },
   "author": {
     "name": "Mahesh Kumar J",

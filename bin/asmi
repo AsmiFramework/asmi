@@ -2,9 +2,6 @@
 
 require('taketalk')({
 	init: function (input, options) {
-		// console.log('This is the input from the CLI:', input);
-		// console.log('These are the options passed:', options);
-
 		try {
 			this[input](options);
 		} catch (e) {
@@ -18,10 +15,6 @@ require('taketalk')({
 	},
 
 	help: function () {
-		console.log('Print this when a user wants help.');
-	},
-
-	version: function () {
-		console.log('Print this when a user asks for the version.');
+		console.log("Working on documentation. Thank you for your patience.");
 	}
 });

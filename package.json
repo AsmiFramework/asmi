@@ -5,7 +5,9 @@
   "main": "asmi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "asmi info"
+    "postinstall": "asmi info",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "asmi": "./bin/asmi"
@@ -26,6 +28,8 @@
     "insight": "^0.8.3",
     "shelljs": "^0.7.4",
     "tabtab": "^2.2.1",
-    "taketalk": "^1.0.0"
-  }
+    "taketalk": "^1.0.0",
+    "snyk": "^1.319.0"
+  },
+  "snyk": true
 }

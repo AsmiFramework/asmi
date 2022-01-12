@@ -24,7 +24,7 @@
     "boxen": "^0.8.1",
     "inquirer": "^1.2.2",
     "insight": "^0.8.3",
-    "shelljs": "^0.7.4",
+    "shelljs": "^0.8.5",
     "tabtab": "^2.2.1",
     "taketalk": "^1.0.0"
   }
